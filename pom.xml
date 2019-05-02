@@ -3,4 +3,30 @@
   <groupId>com.fileexplorer</groupId>
   <artifactId>http-file-explorer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+   <parent>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-parent</artifactId>
+       <version>2.1.1.RELEASE</version>
+   </parent>
+
+	<dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>2.6</version>
+		</dependency>
+		
+	</dependencies>
+
 </project>
